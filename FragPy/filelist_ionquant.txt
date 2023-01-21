@@ -1,0 +1,5 @@
+flag	value
+--psm	File1__35_1\psm.tsv
+--psm	File1__50_1\psm.tsv
+--psm	File1__65_1\psm.tsv
+--specdir	C:\Users\tcoop\Desktop\Target_Folder

@@ -1,10 +1,5 @@
-# Workflow: FAIMS_DDA_LFQ
-
-
-# Please edit the following path to point to the correct location.
-# In Windows, please replace single '\' with '\\'
+# Workflow= FAIMS_DDA_LFQ
 database.db-path=C\:\\Users\\tcoop\\Downloads\\FragPipe-jre-19.1\\fragpipe\\bin\\2023-01-20-decoys-reviewed-isoforms-contam-UP000005640.fas
-
 crystalc.run-crystalc=false
 database.decoy-tag=rev_
 diann.fragpipe.cmd-opts=
@@ -177,7 +172,7 @@ phi-report.remove-contaminants=false
 phi-report.run-report=true
 protein-prophet.cmd-opts=--maxppmdiff 2000000
 protein-prophet.run-protein-prophet=true
-ptmprophet.cmdline=KEEPOLD STATIC EMptmprophet.run-ptmprophet\=false
+ptmprophet.cmdline=KEEPOLD STATIC EMptmprophet.run-ptmprophet\
 ptmprophet.run-ptmprophet=false
 ptmshepherd.adv_params=false
 ptmshepherd.annotation-common=false

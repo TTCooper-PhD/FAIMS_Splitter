@@ -1,0 +1,3 @@
+C:\Users\tcoop\Desktop\FAIMS_Splitter\FragPy\File1__35_1\interact-File1_-35.pep.xml
+C:\Users\tcoop\Desktop\FAIMS_Splitter\FragPy\File1__50_1\interact-File1_-50.pep.xml
+C:\Users\tcoop\Desktop\FAIMS_Splitter\FragPy\File1__65_1\interact-File1_-65.pep.xml

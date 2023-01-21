@@ -55,6 +55,7 @@ temp_file="FAIMS_DDA_LFQ2.workflow"
 with open(f"{temp_file}", "r") as workflow:
     x=workflow.read()
     x_table = x.strip().splitlines()
+    print(x_table)
     workflow.close()
 table_dic={}
 table3a=[table for table in x_table if  "Workflow" in table]
@@ -77,11 +78,37 @@ with open(f"{value1}.json","w") as outfile:
 
 # gen_workflow(temp_file)
 
-def mod_workflow(input):
+def mod_workflow(input, filename=None, outdir=None):
+    temp_list=[]
     if isinstance(input, dict)==True:
         print("Dictionary Recieved")
+        params=input
+        input_name=input
     elif ".json" in input:
-        print("JSON FILE Recieved")
+        print("JSON File Recieved")
+        with open (input,"r") as f:
+            params=json.load(f)
+            f.close()
+            input_name=input.split(".")[0]
     else:
         print("Provide dictionary or JSON for input variable")
+    for k,v in params.items():
+        out_string=f"{k}={v}"
+        temp_list.append(out_string)
+    work_string="\n".join(temp_list)
+    if filename != None:
+        input_name=str(filename)
+    if outdir != None:
+        input_name=os.path.join(outdir,input_name)
+    with open(f"{input_name}.workflow","w") as workout:
+        workout.write(work_string)
+        workout.close()
 
+mod_workflow(" FAIMS_DDA_LFQ2.json",filename="WorkOutTest")
+
+workflow="WorkOutTest.workflow"
+manifest="FAIMS_DDA.fp-manifest"
+workdir="FragPy"
+
+frag=f"C:\\Users\\tcoop\Downloads\\FragPipe-jre-19.1\\fragpipe\\bin\\fragpipe.bat --headless --workflow {workflow} --manifest {manifest} --workdir {workdir}"
+subprocess.Popen(frag, shell=True)

@@ -1,4 +1,4 @@
-# Workflow: FAIMS_DDA_LFQ
+# Workflow: FAIMS_LFQ_DDA
 
 
 # Please edit the following path to point to the correct location.
@@ -38,7 +38,7 @@ diaumpire.SE.SN=
 diaumpire.run-diaumpire=false
 freequant.mz-tol=10
 freequant.rt-tol=0.4
-freequant.run-freequant=false
+freequant.run-freequant=true
 ionquant.excludemods=
 ionquant.heavy=
 ionquant.imtol=0.05
@@ -62,11 +62,11 @@ ionquant.peptidefdr=1
 ionquant.proteinfdr=1
 ionquant.requantify=1
 ionquant.rttol=0.4
-ionquant.run-ionquant=true
+ionquant.run-ionquant=false
 ionquant.tp=0
 ionquant.uniqueness=0
 ionquant.use-labeling=false
-ionquant.use-lfq=true
+ionquant.use-lfq=false
 ionquant.writeindex=0
 msbooster.predict-rt=true
 msbooster.predict-spectra=true
@@ -75,7 +75,7 @@ msbooster.use-correlated-features=false
 msfragger.Y_type_masses=
 msfragger.activation_types=all
 msfragger.add_topN_complementary=0
-msfragger.allowed_missed_cleavage_1=2
+msfragger.allowed_missed_cleavage_1=69
 msfragger.allowed_missed_cleavage_2=2
 msfragger.calibrate_mass=2
 msfragger.check_spectral_files=true
@@ -237,11 +237,11 @@ ptmshepherd.prob_regY=
 ptmshepherd.prob_sulfoOx=
 ptmshepherd.remainder_masses=
 ptmshepherd.remove_glycan_delta_mass=true
-ptmshepherd.run-shepherd=true
+ptmshepherd.run-shepherd=false
 ptmshepherd.spectra_maxfragcharge=2
 ptmshepherd.spectra_ppmtol=20
 ptmshepherd.varmod_masses=
-quantitation.run-label-free-quant=true
+quantitation.run-label-free-quant=false
 run-psm-validation=true
 run-validation-tab=true
 saintexpress.fragpipe.cmd-opts=
@@ -297,7 +297,6 @@ tmtintegrator.top3_pep=true
 tmtintegrator.unique_gene=0
 tmtintegrator.unique_pep=false
 tmtintegrator.use_glycan_composition=false
-workflow.description=We did it mama.
 workflow.input.data-type.im-ms=true
 workflow.input.data-type.regular-ms=false
 workflow.saved-with-ver=19.1

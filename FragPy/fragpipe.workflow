@@ -1,4 +1,4 @@
-# Workflow: FAIMS_DDA_LFQ
+# FragPipe (19.1) runtime properties
 
 
 # Please edit the following path to point to the correct location.
@@ -36,6 +36,10 @@ diaumpire.SE.MassDefectOffset=
 diaumpire.SE.NoMissedScan=
 diaumpire.SE.SN=
 diaumpire.run-diaumpire=false
+fragpipe-config.bin-ionquant=C\:\\Users\\tcoop\\Downloads\\FragPipe-jre-19.1\\fragpipe\\tools\\IonQuant-1.8.10.jar
+fragpipe-config.bin-msfragger=C\:\\Users\\tcoop\\Downloads\\FragPipe-jre-19.1\\fragpipe\\tools\\MSFragger-3.7\\MSFragger-3.7.jar
+fragpipe-config.bin-philosopher=C\:\\Users\\tcoop\\Downloads\\FragPipe-jre-19.1\\fragpipe\\tools\\philosopher_v4.8.0_windows_amd64\\philosopher.exe
+fragpipe-config.bin-python=C\:\\Users\\tcoop\\Anaconda3\\python.exe
 freequant.mz-tol=10
 freequant.rt-tol=0.4
 freequant.run-freequant=false
@@ -177,7 +181,7 @@ phi-report.remove-contaminants=false
 phi-report.run-report=true
 protein-prophet.cmd-opts=--maxppmdiff 2000000
 protein-prophet.run-protein-prophet=true
-ptmprophet.cmdline=KEEPOLD STATIC EMptmprophet.run-ptmprophet\=false
+ptmprophet.cmdline=KEEPOLD STATIC EMptmprophet.run-ptmprophetptmprophet.run-ptmprophet\=false
 ptmprophet.run-ptmprophet=false
 ptmshepherd.adv_params=false
 ptmshepherd.annotation-common=false
@@ -297,7 +301,8 @@ tmtintegrator.top3_pep=true
 tmtintegrator.unique_gene=0
 tmtintegrator.unique_pep=false
 tmtintegrator.use_glycan_composition=false
-workflow.description=We did it mama.
+workdir=C\:\\Users\\tcoop\\Desktop\\FAIMS_Splitter\\FragPy
 workflow.input.data-type.im-ms=true
 workflow.input.data-type.regular-ms=false
-workflow.saved-with-ver=19.1
+workflow.ram=0
+workflow.threads=11
