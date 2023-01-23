@@ -1,0 +1,481 @@
+17:04:18 WARN : The output directory is not empty. Some files might be overwritten in: C:\Users\tcoop\Desktop\FAIMS_Splitter\FragPy
+System OS: Windows 10, Architecture: AMD64
+Java Info: 19.0.2, Java HotSpot(TM) 64-Bit Server VM, Oracle Corporation
+.NET Core Info: N/A
+
+
+Version info:
+FragPipe version 19.1
+MSFragger version 3.7
+IonQuant version 1.8.10
+Philosopher version 4.8.0
+
+
+LCMS files:
+  Experiment/Group: File1__35_1
+  - C:\Users\tcoop\Desktop\Target_Folder\File1_-35.mzML	DDA
+  Experiment/Group: File1__50_1
+  - C:\Users\tcoop\Desktop\Target_Folder\File1_-50.mzML	DDA
+  Experiment/Group: File1__65_1
+  - C:\Users\tcoop\Desktop\Target_Folder\File1_-65.mzML	DDA
+
+
+45 commands to execute:
+CheckCentroid
+C:\Users\tcoop\Downloads\FragPipe-jre-19.1\fragpipe\jre\bin\java.exe -Xmx1G -cp "C:\Users\tcoop\Downloads\FragPipe-jre-19.1\fragpipe\lib\fragpipe-19.1.jar;C:\Users\tcoop\Downloads\FragPipe-jre-19.1\fragpipe\tools\batmass-io-1.28.9.jar" com.dmtavt.fragpipe.util.CheckCentroid C:\Users\tcoop\Desktop\Target_Folder\File1_-35.mzML 11
+WorkspaceCleanInit [Work dir: C:\Users\tcoop\Desktop\FAIMS_Splitter\FragPy\File1__50_1]
+C:\Users\tcoop\Downloads\FragPipe-jre-19.1\fragpipe\tools\philosopher_v4.8.0_windows_amd64\philosopher.exe workspace --clean --nocheck
+WorkspaceCleanInit [Work dir: C:\Users\tcoop\Desktop\FAIMS_Splitter\FragPy\File1__50_1]
+C:\Users\tcoop\Downloads\FragPipe-jre-19.1\fragpipe\tools\philosopher_v4.8.0_windows_amd64\philosopher.exe workspace --init --nocheck --temp C:\Users\tcoop\AppData\Local\Temp\3bb8843f-7d66-4ed3-9703-3c08fd0b08e2
+WorkspaceCleanInit [Work dir: C:\Users\tcoop\Desktop\FAIMS_Splitter\FragPy]
+C:\Users\tcoop\Downloads\FragPipe-jre-19.1\fragpipe\tools\philosopher_v4.8.0_windows_amd64\philosopher.exe workspace --clean --nocheck
+WorkspaceCleanInit [Work dir: C:\Users\tcoop\Desktop\FAIMS_Splitter\FragPy]
+C:\Users\tcoop\Downloads\FragPipe-jre-19.1\fragpipe\tools\philosopher_v4.8.0_windows_amd64\philosopher.exe workspace --init --nocheck --temp C:\Users\tcoop\AppData\Local\Temp\993b606a-beac-4283-994a-dca5365a6c82
+WorkspaceCleanInit [Work dir: C:\Users\tcoop\Desktop\FAIMS_Splitter\FragPy\File1__35_1]
+C:\Users\tcoop\Downloads\FragPipe-jre-19.1\fragpipe\tools\philosopher_v4.8.0_windows_amd64\philosopher.exe workspace --clean --nocheck
+WorkspaceCleanInit [Work dir: C:\Users\tcoop\Desktop\FAIMS_Splitter\FragPy\File1__35_1]
+C:\Users\tcoop\Downloads\FragPipe-jre-19.1\fragpipe\tools\philosopher_v4.8.0_windows_amd64\philosopher.exe workspace --init --nocheck --temp C:\Users\tcoop\AppData\Local\Temp\784dea9e-d7bf-4ce2-b620-57b4abda65e3
+WorkspaceCleanInit [Work dir: C:\Users\tcoop\Desktop\FAIMS_Splitter\FragPy\File1__65_1]
+C:\Users\tcoop\Downloads\FragPipe-jre-19.1\fragpipe\tools\philosopher_v4.8.0_windows_amd64\philosopher.exe workspace --clean --nocheck
+WorkspaceCleanInit [Work dir: C:\Users\tcoop\Desktop\FAIMS_Splitter\FragPy\File1__65_1]
+C:\Users\tcoop\Downloads\FragPipe-jre-19.1\fragpipe\tools\philosopher_v4.8.0_windows_amd64\philosopher.exe workspace --init --nocheck --temp C:\Users\tcoop\AppData\Local\Temp\12dba5a8-df56-4a0c-adf7-b91371c6710d
+MSFragger [Work dir: C:\Users\tcoop\Desktop\FAIMS_Splitter\FragPy]
+C:\Users\tcoop\Downloads\FragPipe-jre-19.1\fragpipe\jre\bin\java.exe -jar -Dfile.encoding=UTF-8 -Xmx1G C:\Users\tcoop\Downloads\FragPipe-jre-19.1\fragpipe\tools\MSFragger-3.7\MSFragger-3.7.jar C:\Users\tcoop\Desktop\FAIMS_Splitter\FragPy\fragger.params C:\Users\tcoop\Desktop\Target_Folder\File1_-35.mzML C:\Users\tcoop\Desktop\Target_Folder\File1_-50.mzML C:\Users\tcoop\Desktop\Target_Folder\File1_-65.mzML
+MSFragger move pepxml
+C:\Users\tcoop\Downloads\FragPipe-jre-19.1\fragpipe\jre\bin\java.exe -cp C:\Users\tcoop\Downloads\FragPipe-jre-19.1\fragpipe\lib\fragpipe-19.1.jar;/C:/Users/tcoop/Downloads/FragPipe-jre-19.1/fragpipe/lib/commons-io-2.11.0.jar com.github.chhh.utils.FileMove --no-err C:\Users\tcoop\Desktop\Target_Folder\File1_-35.pepXML C:\Users\tcoop\Desktop\FAIMS_Splitter\FragPy\File1__35_1\File1_-35.pepXML
+MSFragger move pin
+C:\Users\tcoop\Downloads\FragPipe-jre-19.1\fragpipe\jre\bin\java.exe -cp C:\Users\tcoop\Downloads\FragPipe-jre-19.1\fragpipe\lib\fragpipe-19.1.jar;/C:/Users/tcoop/Downloads/FragPipe-jre-19.1/fragpipe/lib/commons-io-2.11.0.jar com.github.chhh.utils.FileMove --no-err C:\Users\tcoop\Desktop\Target_Folder\File1_-35.pin C:\Users\tcoop\Desktop\FAIMS_Splitter\FragPy\File1__35_1\File1_-35.pin
+MSFragger move pepxml
+C:\Users\tcoop\Downloads\FragPipe-jre-19.1\fragpipe\jre\bin\java.exe -cp C:\Users\tcoop\Downloads\FragPipe-jre-19.1\fragpipe\lib\fragpipe-19.1.jar;/C:/Users/tcoop/Downloads/FragPipe-jre-19.1/fragpipe/lib/commons-io-2.11.0.jar com.github.chhh.utils.FileMove --no-err C:\Users\tcoop\Desktop\Target_Folder\File1_-50.pepXML C:\Users\tcoop\Desktop\FAIMS_Splitter\FragPy\File1__50_1\File1_-50.pepXML
+MSFragger move pin
+C:\Users\tcoop\Downloads\FragPipe-jre-19.1\fragpipe\jre\bin\java.exe -cp C:\Users\tcoop\Downloads\FragPipe-jre-19.1\fragpipe\lib\fragpipe-19.1.jar;/C:/Users/tcoop/Downloads/FragPipe-jre-19.1/fragpipe/lib/commons-io-2.11.0.jar com.github.chhh.utils.FileMove --no-err C:\Users\tcoop\Desktop\Target_Folder\File1_-50.pin C:\Users\tcoop\Desktop\FAIMS_Splitter\FragPy\File1__50_1\File1_-50.pin
+MSFragger move pepxml
+C:\Users\tcoop\Downloads\FragPipe-jre-19.1\fragpipe\jre\bin\java.exe -cp C:\Users\tcoop\Downloads\FragPipe-jre-19.1\fragpipe\lib\fragpipe-19.1.jar;/C:/Users/tcoop/Downloads/FragPipe-jre-19.1/fragpipe/lib/commons-io-2.11.0.jar com.github.chhh.utils.FileMove --no-err C:\Users\tcoop\Desktop\Target_Folder\File1_-65.pepXML C:\Users\tcoop\Desktop\FAIMS_Splitter\FragPy\File1__65_1\File1_-65.pepXML
+MSFragger move pin
+C:\Users\tcoop\Downloads\FragPipe-jre-19.1\fragpipe\jre\bin\java.exe -cp C:\Users\tcoop\Downloads\FragPipe-jre-19.1\fragpipe\lib\fragpipe-19.1.jar;/C:/Users/tcoop/Downloads/FragPipe-jre-19.1/fragpipe/lib/commons-io-2.11.0.jar com.github.chhh.utils.FileMove --no-err C:\Users\tcoop\Desktop\Target_Folder\File1_-65.pin C:\Users\tcoop\Desktop\FAIMS_Splitter\FragPy\File1__65_1\File1_-65.pin
+Percolator [Work dir: C:\Users\tcoop\Desktop\FAIMS_Splitter\FragPy\File1__65_1]
+C:\Users\tcoop\Downloads\FragPipe-jre-19.1\fragpipe\tools\percolator-305\percolator.exe --only-psms --no-terminate --post-processing-tdc --num-threads 11 --results-psms File1_-65_percolator_target_psms.tsv --decoy-results-psms File1_-65_percolator_decoy_psms.tsv File1_-65.pin
+Percolator [Work dir: C:\Users\tcoop\Desktop\FAIMS_Splitter\FragPy\File1__35_1]
+C:\Users\tcoop\Downloads\FragPipe-jre-19.1\fragpipe\tools\percolator-305\percolator.exe --only-psms --no-terminate --post-processing-tdc --num-threads 11 --results-psms File1_-35_percolator_target_psms.tsv --decoy-results-psms File1_-35_percolator_decoy_psms.tsv File1_-35.pin
+Percolator [Work dir: C:\Users\tcoop\Desktop\FAIMS_Splitter\FragPy\File1__50_1]
+C:\Users\tcoop\Downloads\FragPipe-jre-19.1\fragpipe\tools\percolator-305\percolator.exe --only-psms --no-terminate --post-processing-tdc --num-threads 11 --results-psms File1_-50_percolator_target_psms.tsv --decoy-results-psms File1_-50_percolator_decoy_psms.tsv File1_-50.pin
+Percolator: Convert to pepxml [Work dir: C:\Users\tcoop\Desktop\FAIMS_Splitter\FragPy\File1__65_1]
+C:\Users\tcoop\Downloads\FragPipe-jre-19.1\fragpipe\jre\bin\java.exe -cp C:\Users\tcoop\Downloads\FragPipe-jre-19.1\fragpipe\lib/* com.dmtavt.fragpipe.tools.percolator.PercolatorOutputToPepXML File1_-65.pin File1_-65 File1_-65_percolator_target_psms.tsv File1_-65_percolator_decoy_psms.tsv interact-File1_-65 DDA 0.5
+Percolator: Delete temp
+C:\Users\tcoop\Downloads\FragPipe-jre-19.1\fragpipe\jre\bin\java.exe -cp C:\Users\tcoop\Downloads\FragPipe-jre-19.1\fragpipe\lib\fragpipe-19.1.jar com.github.chhh.utils.FileDelete C:\Users\tcoop\Desktop\FAIMS_Splitter\FragPy\File1__65_1\File1_-65_percolator_target_psms.tsv
+Percolator: Delete temp
+C:\Users\tcoop\Downloads\FragPipe-jre-19.1\fragpipe\jre\bin\java.exe -cp C:\Users\tcoop\Downloads\FragPipe-jre-19.1\fragpipe\lib\fragpipe-19.1.jar com.github.chhh.utils.FileDelete C:\Users\tcoop\Desktop\FAIMS_Splitter\FragPy\File1__65_1\File1_-65_percolator_decoy_psms.tsv
+Percolator: Convert to pepxml [Work dir: C:\Users\tcoop\Desktop\FAIMS_Splitter\FragPy\File1__35_1]
+C:\Users\tcoop\Downloads\FragPipe-jre-19.1\fragpipe\jre\bin\java.exe -cp C:\Users\tcoop\Downloads\FragPipe-jre-19.1\fragpipe\lib/* com.dmtavt.fragpipe.tools.percolator.PercolatorOutputToPepXML File1_-35.pin File1_-35 File1_-35_percolator_target_psms.tsv File1_-35_percolator_decoy_psms.tsv interact-File1_-35 DDA 0.5
+Percolator: Delete temp
+C:\Users\tcoop\Downloads\FragPipe-jre-19.1\fragpipe\jre\bin\java.exe -cp C:\Users\tcoop\Downloads\FragPipe-jre-19.1\fragpipe\lib\fragpipe-19.1.jar com.github.chhh.utils.FileDelete C:\Users\tcoop\Desktop\FAIMS_Splitter\FragPy\File1__35_1\File1_-35_percolator_target_psms.tsv
+Percolator: Delete temp
+C:\Users\tcoop\Downloads\FragPipe-jre-19.1\fragpipe\jre\bin\java.exe -cp C:\Users\tcoop\Downloads\FragPipe-jre-19.1\fragpipe\lib\fragpipe-19.1.jar com.github.chhh.utils.FileDelete C:\Users\tcoop\Desktop\FAIMS_Splitter\FragPy\File1__35_1\File1_-35_percolator_decoy_psms.tsv
+Percolator: Convert to pepxml [Work dir: C:\Users\tcoop\Desktop\FAIMS_Splitter\FragPy\File1__50_1]
+C:\Users\tcoop\Downloads\FragPipe-jre-19.1\fragpipe\jre\bin\java.exe -cp C:\Users\tcoop\Downloads\FragPipe-jre-19.1\fragpipe\lib/* com.dmtavt.fragpipe.tools.percolator.PercolatorOutputToPepXML File1_-50.pin File1_-50 File1_-50_percolator_target_psms.tsv File1_-50_percolator_decoy_psms.tsv interact-File1_-50 DDA 0.5
+Percolator: Delete temp
+C:\Users\tcoop\Downloads\FragPipe-jre-19.1\fragpipe\jre\bin\java.exe -cp C:\Users\tcoop\Downloads\FragPipe-jre-19.1\fragpipe\lib\fragpipe-19.1.jar com.github.chhh.utils.FileDelete C:\Users\tcoop\Desktop\FAIMS_Splitter\FragPy\File1__50_1\File1_-50_percolator_target_psms.tsv
+Percolator: Delete temp
+C:\Users\tcoop\Downloads\FragPipe-jre-19.1\fragpipe\jre\bin\java.exe -cp C:\Users\tcoop\Downloads\FragPipe-jre-19.1\fragpipe\lib\fragpipe-19.1.jar com.github.chhh.utils.FileDelete C:\Users\tcoop\Desktop\FAIMS_Splitter\FragPy\File1__50_1\File1_-50_percolator_decoy_psms.tsv
+ProteinProphet [Work dir: C:\Users\tcoop\Desktop\FAIMS_Splitter\FragPy]
+C:\Users\tcoop\Downloads\FragPipe-jre-19.1\fragpipe\tools\philosopher_v4.8.0_windows_amd64\philosopher.exe proteinprophet --maxppmdiff 2000000 --output combined C:\Users\tcoop\Desktop\FAIMS_Splitter\FragPy\filelist_proteinprophet.txt
+PhilosopherDbAnnotate [Work dir: C:\Users\tcoop\Desktop\FAIMS_Splitter\FragPy\File1__50_1]
+C:\Users\tcoop\Downloads\FragPipe-jre-19.1\fragpipe\tools\philosopher_v4.8.0_windows_amd64\philosopher.exe database --annotate C:\Users\tcoop\Downloads\FragPipe-jre-19.1\fragpipe\bin\2023-01-20-decoys-reviewed-isoforms-contam-UP000005640.fas --prefix rev_
+PhilosopherDbAnnotate [Work dir: C:\Users\tcoop\Desktop\FAIMS_Splitter\FragPy]
+C:\Users\tcoop\Downloads\FragPipe-jre-19.1\fragpipe\tools\philosopher_v4.8.0_windows_amd64\philosopher.exe database --annotate C:\Users\tcoop\Downloads\FragPipe-jre-19.1\fragpipe\bin\2023-01-20-decoys-reviewed-isoforms-contam-UP000005640.fas --prefix rev_
+PhilosopherDbAnnotate [Work dir: C:\Users\tcoop\Desktop\FAIMS_Splitter\FragPy\File1__35_1]
+C:\Users\tcoop\Downloads\FragPipe-jre-19.1\fragpipe\tools\philosopher_v4.8.0_windows_amd64\philosopher.exe database --annotate C:\Users\tcoop\Downloads\FragPipe-jre-19.1\fragpipe\bin\2023-01-20-decoys-reviewed-isoforms-contam-UP000005640.fas --prefix rev_
+PhilosopherDbAnnotate [Work dir: C:\Users\tcoop\Desktop\FAIMS_Splitter\FragPy\File1__65_1]
+C:\Users\tcoop\Downloads\FragPipe-jre-19.1\fragpipe\tools\philosopher_v4.8.0_windows_amd64\philosopher.exe database --annotate C:\Users\tcoop\Downloads\FragPipe-jre-19.1\fragpipe\bin\2023-01-20-decoys-reviewed-isoforms-contam-UP000005640.fas --prefix rev_
+PhilosopherFilter [Work dir: C:\Users\tcoop\Desktop\FAIMS_Splitter\FragPy\File1__35_1]
+C:\Users\tcoop\Downloads\FragPipe-jre-19.1\fragpipe\tools\philosopher_v4.8.0_windows_amd64\philosopher.exe filter --sequential --prot 0.01 --tag rev_ --pepxml C:\Users\tcoop\Desktop\FAIMS_Splitter\FragPy\File1__35_1 --protxml C:\Users\tcoop\Desktop\FAIMS_Splitter\FragPy\combined.prot.xml --razor
+PhilosopherFilter [Work dir: C:\Users\tcoop\Desktop\FAIMS_Splitter\FragPy\File1__50_1]
+C:\Users\tcoop\Downloads\FragPipe-jre-19.1\fragpipe\tools\philosopher_v4.8.0_windows_amd64\philosopher.exe filter --sequential --prot 0.01 --tag rev_ --pepxml C:\Users\tcoop\Desktop\FAIMS_Splitter\FragPy\File1__50_1 --protxml C:\Users\tcoop\Desktop\FAIMS_Splitter\FragPy\combined.prot.xml --razorbin C:\Users\tcoop\Desktop\FAIMS_Splitter\FragPy\File1__35_1\.meta\razor.bin
+PhilosopherFilter [Work dir: C:\Users\tcoop\Desktop\FAIMS_Splitter\FragPy\File1__65_1]
+C:\Users\tcoop\Downloads\FragPipe-jre-19.1\fragpipe\tools\philosopher_v4.8.0_windows_amd64\philosopher.exe filter --sequential --prot 0.01 --tag rev_ --pepxml C:\Users\tcoop\Desktop\FAIMS_Splitter\FragPy\File1__65_1 --protxml C:\Users\tcoop\Desktop\FAIMS_Splitter\FragPy\combined.prot.xml --razorbin C:\Users\tcoop\Desktop\FAIMS_Splitter\FragPy\File1__35_1\.meta\razor.bin
+PhilosopherReport [Work dir: C:\Users\tcoop\Desktop\FAIMS_Splitter\FragPy\File1__50_1]
+C:\Users\tcoop\Downloads\FragPipe-jre-19.1\fragpipe\tools\philosopher_v4.8.0_windows_amd64\philosopher.exe report
+PhilosopherReport [Work dir: C:\Users\tcoop\Desktop\FAIMS_Splitter\FragPy\File1__35_1]
+C:\Users\tcoop\Downloads\FragPipe-jre-19.1\fragpipe\tools\philosopher_v4.8.0_windows_amd64\philosopher.exe report
+PhilosopherReport [Work dir: C:\Users\tcoop\Desktop\FAIMS_Splitter\FragPy\File1__65_1]
+C:\Users\tcoop\Downloads\FragPipe-jre-19.1\fragpipe\tools\philosopher_v4.8.0_windows_amd64\philosopher.exe report
+PTMShepherd [Work dir: C:\Users\tcoop\Desktop\FAIMS_Splitter\FragPy]
+C:\Users\tcoop\Downloads\FragPipe-jre-19.1\fragpipe\jre\bin\java.exe -Xmx1G -Dlibs.thermo.dir="C:\Users\tcoop\Downloads\FragPipe-jre-19.1\fragpipe\tools\MSFragger-3.7\ext\thermo" -cp "C:\Users\tcoop\Downloads\FragPipe-jre-19.1\fragpipe\tools\ptmshepherd-2.0.3.jar;C:\Users\tcoop\Downloads\FragPipe-jre-19.1\fragpipe\tools\batmass-io-1.28.9.jar;C:\Users\tcoop\Downloads\FragPipe-jre-19.1\fragpipe\tools\commons-math3-3.6.1.jar;C:\Users\tcoop\Downloads\FragPipe-jre-19.1\fragpipe\tools\hipparchus-1.8\hipparchus-core-1.8.jar;C:\Users\tcoop\Downloads\FragPipe-jre-19.1\fragpipe\tools\hipparchus-1.8\hipparchus-stat-1.8.jar" edu.umich.andykong.ptmshepherd.PTMShepherd "C:\Users\tcoop\Desktop\FAIMS_Splitter\FragPy\shepherd.config"
+WorkspaceClean [Work dir: C:\Users\tcoop\Desktop\FAIMS_Splitter\FragPy\File1__50_1]
+C:\Users\tcoop\Downloads\FragPipe-jre-19.1\fragpipe\tools\philosopher_v4.8.0_windows_amd64\philosopher.exe workspace --clean --nocheck
+WorkspaceClean [Work dir: C:\Users\tcoop\Desktop\FAIMS_Splitter\FragPy]
+C:\Users\tcoop\Downloads\FragPipe-jre-19.1\fragpipe\tools\philosopher_v4.8.0_windows_amd64\philosopher.exe workspace --clean --nocheck
+WorkspaceClean [Work dir: C:\Users\tcoop\Desktop\FAIMS_Splitter\FragPy\File1__35_1]
+C:\Users\tcoop\Downloads\FragPipe-jre-19.1\fragpipe\tools\philosopher_v4.8.0_windows_amd64\philosopher.exe workspace --clean --nocheck
+WorkspaceClean [Work dir: C:\Users\tcoop\Desktop\FAIMS_Splitter\FragPy\File1__65_1]
+C:\Users\tcoop\Downloads\FragPipe-jre-19.1\fragpipe\tools\philosopher_v4.8.0_windows_amd64\philosopher.exe workspace --clean --nocheck
+IonQuant [Work dir: C:\Users\tcoop\Desktop\FAIMS_Splitter\FragPy]
+C:\Users\tcoop\Downloads\FragPipe-jre-19.1\fragpipe\jre\bin\java.exe -Djava.awt.headless=true -Xmx1G -Dlibs.bruker.dir="C:\Users\tcoop\Downloads\FragPipe-jre-19.1\fragpipe\tools\MSFragger-3.7\ext\bruker" -Dlibs.thermo.dir="C:\Users\tcoop\Downloads\FragPipe-jre-19.1\fragpipe\tools\MSFragger-3.7\ext\thermo" -cp "C:\Users\tcoop\Downloads\FragPipe-jre-19.1\fragpipe\tools\jfreechart-1.5.3.jar;C:\Users\tcoop\Downloads\FragPipe-jre-19.1\fragpipe\tools\batmass-io-1.28.9.jar;C:\Users\tcoop\Downloads\FragPipe-jre-19.1\fragpipe\tools\IonQuant-1.8.10.jar" ionquant.IonQuant --threads 11 --ionmobility 1 --minexps 1 --mbr 1 --maxlfq 1 --requantify 1 --mztol 10 --imtol 0.05 --rttol 0.4 --mbrmincorr 0 --mbrrttol 1 --mbrimtol 0.05 --mbrtoprun 10 --ionfdr 0.01 --proteinfdr 1 --peptidefdr 1 --normalization 1 --minisotopes 1 --minscans 3 --writeindex 0 --tp 0 --minfreq 0 --minions 1 --locprob 0.75 --uniqueness 0 --multidir . --filelist C:\Users\tcoop\Desktop\FAIMS_Splitter\FragPy\filelist_ionquant.txt --modlist C:\Users\tcoop\Desktop\FAIMS_Splitter\FragPy\modmasses_ionquant.txt
+~~~~~~~~~~~~~~~~~~~~~~
+
+Execution order:
+
+    Cmd: [START], Work dir: [C:\Users\tcoop\Desktop\FAIMS_Splitter\FragPy]
+    Cmd: [CheckCentroid], Work dir: [C:\Users\tcoop\Desktop\FAIMS_Splitter\FragPy]
+    Cmd: [WorkspaceCleanInit], Work dir: [C:\Users\tcoop\Desktop\FAIMS_Splitter\FragPy\File1__50_1]
+    Cmd: [WorkspaceCleanInit], Work dir: [C:\Users\tcoop\Desktop\FAIMS_Splitter\FragPy]
+    Cmd: [WorkspaceCleanInit], Work dir: [C:\Users\tcoop\Desktop\FAIMS_Splitter\FragPy\File1__35_1]
+    Cmd: [WorkspaceCleanInit], Work dir: [C:\Users\tcoop\Desktop\FAIMS_Splitter\FragPy\File1__65_1]
+    Cmd: [MSFragger], Work dir: [C:\Users\tcoop\Desktop\FAIMS_Splitter\FragPy]
+    Cmd: [Percolator], Work dir: [C:\Users\tcoop\Desktop\FAIMS_Splitter\FragPy]
+    Cmd: [ProteinProphet], Work dir: [C:\Users\tcoop\Desktop\FAIMS_Splitter\FragPy]
+    Cmd: [PhilosopherDbAnnotate], Work dir: [C:\Users\tcoop\Desktop\FAIMS_Splitter\FragPy]
+    Cmd: [PhilosopherFilter], Work dir: [C:\Users\tcoop\Desktop\FAIMS_Splitter\FragPy]
+    Cmd: [PhilosopherReport], Work dir: [C:\Users\tcoop\Desktop\FAIMS_Splitter\FragPy]
+    Cmd: [PTMShepherd], Work dir: [C:\Users\tcoop\Desktop\FAIMS_Splitter\FragPy]
+    Cmd: [WorkspaceClean], Work dir: [C:\Users\tcoop\Desktop\FAIMS_Splitter\FragPy\File1__50_1]
+    Cmd: [WorkspaceClean], Work dir: [C:\Users\tcoop\Desktop\FAIMS_Splitter\FragPy]
+    Cmd: [WorkspaceClean], Work dir: [C:\Users\tcoop\Desktop\FAIMS_Splitter\FragPy\File1__35_1]
+    Cmd: [WorkspaceClean], Work dir: [C:\Users\tcoop\Desktop\FAIMS_Splitter\FragPy\File1__65_1]
+    Cmd: [IonQuant], Work dir: [C:\Users\tcoop\Desktop\FAIMS_Splitter\FragPy]
+
+~~~~~~~~~~~~~~~~~~~~~~
+
+~~~~~~Sample of C:\Users\tcoop\Downloads\FragPipe-jre-19.1\fragpipe\bin\2023-01-20-decoys-reviewed-isoforms-contam-UP000005640.fas~~~~~~~
+>Biognosys|iRT-Kit_WR_fusion GN=iRTKit
+>rev_sp|O75147-2|OBSL1_HUMAN Isoform 2 of Obscurin-like protein 1 OS=Homo sapiens OX=9606 GN=OBSL1
+>rev_sp|P17017|ZNF14_HUMAN Zinc finger protein 14 OS=Homo sapiens OX=9606 GN=ZNF14 PE=2 SV=3
+>rev_sp|P56696|KCNQ4_HUMAN Potassium voltage-gated channel subfamily KQT member 4 OS=Homo sapiens OX=9606 GN=KCNQ4 PE=1 SV=2
+>rev_sp|Q15397|PUM3_HUMAN Pumilio homolog 3 OS=Homo sapiens OX=9606 GN=PUM3 PE=1 SV=3
+>rev_sp|Q6P087-2|RUSD3_HUMAN Isoform 2 of Mitochondrial mRNA pseudouridine synthase RPUSD3 OS=Homo sapiens OX=9606 GN=RPUSD3
+>rev_sp|Q8IYB3|SRRM1_HUMAN Serine/arginine repetitive matrix protein 1 OS=Homo sapiens OX=9606 GN=SRRM1 PE=1 SV=2
+>rev_sp|Q8WZ71-2|TM158_HUMAN Isoform 2 of Transmembrane protein 158 OS=Homo sapiens OX=9606 GN=TMEM158
+>rev_sp|Q9BUB7-2|TMM70_HUMAN Isoform 2 of Transmembrane protein 70, mitochondrial OS=Homo sapiens OX=9606 GN=TMEM70
+>rev_sp|Q9NWQ8|PHAG1_HUMAN Phosphoprotein associated with glycosphingolipid-enriched microdomains 1 OS=Homo sapiens OX=9606 GN=PAG1 PE=1 SV=2
+>rev_sp|Q9Y6V7|DDX49_HUMAN Probable ATP-dependent RNA helicase DDX49 OS=Homo sapiens OX=9606 GN=DDX49 PE=1 SV=1
+>sp|O75182-3|SIN3B_HUMAN Isoform 3 of Paired amphipathic helix protein Sin3b OS=Homo sapiens OX=9606 GN=SIN3B
+>sp|P17174-2|AATC_HUMAN Isoform 2 of Aspartate aminotransferase, cytoplasmic OS=Homo sapiens OX=9606 GN=GOT1
+>sp|P57055|DSCR6_HUMAN Protein ripply3 OS=Homo sapiens OX=9606 GN=RIPPLY3 PE=1 SV=1
+>sp|Q15466|NR0B2_HUMAN Nuclear receptor subfamily 0 group B member 2 OS=Homo sapiens OX=9606 GN=NR0B2 PE=1 SV=2
+>sp|Q6P1N0|C2D1A_HUMAN Coiled-coil and C2 domain-containing protein 1A OS=Homo sapiens OX=9606 GN=CC2D1A PE=1 SV=1
+>sp|Q8IYJ3-2|SYTL1_HUMAN Isoform 2 of Synaptotagmin-like protein 1 OS=Homo sapiens OX=9606 GN=SYTL1
+>sp|Q92485|ASM3B_HUMAN Acid sphingomyelinase-like phosphodiesterase 3b OS=Homo sapiens OX=9606 GN=SMPDL3B PE=1 SV=2
+>sp|Q9BUP0|EFHD1_HUMAN EF-hand domain-containing protein D1 OS=Homo sapiens OX=9606 GN=EFHD1 PE=1 SV=1
+>sp|Q9NWZ5-3|UCKL1_HUMAN Isoform 3 of Uridine-cytidine kinase-like 1 OS=Homo sapiens OX=9606 GN=UCKL1
+>sp|X6R8D5|GUCNB_HUMAN Putative uncharacterized protein GUCA1ANB OS=Homo sapiens OX=9606 GN=GUCA1ANB PE=5 SV=2
+~~~~~~~~~~~~~~~~~~~~~~
+
+~~~~~~~~~ fragpipe.config ~~~~~~~~~
+# FragPipe v19.1ui state cache
+
+
+# Please edit the following path to point to the correct location.
+# In Windows, please replace single '\' with '\\'
+database.db-path=C\:\\Users\\tcoop\\Downloads\\FragPipe-jre-19.1\\fragpipe\\bin\\2023-01-20-decoys-reviewed-isoforms-contam-UP000005640.fas
+
+crystalc.run-crystalc=false
+database.decoy-tag=rev_
+diann.fragpipe.cmd-opts=
+diann.library=
+diann.q-value=0.01
+diann.quantification-strategy=3
+diann.run-dia-nn=false
+diann.run-specific-protein-q-value=false
+diann.unrelated-runs=false
+diann.use-predicted-spectra=true
+diaumpire.AdjustFragIntensity=false
+diaumpire.BoostComplementaryIon=false
+diaumpire.CorrThreshold=
+diaumpire.DeltaApex=
+diaumpire.ExportPrecursorPeak=false
+diaumpire.Q1=false
+diaumpire.Q2=false
+diaumpire.Q3=false
+diaumpire.RFmax=
+diaumpire.RPmax=
+diaumpire.RTOverlap=
+diaumpire.SE.EstimateBG=false
+diaumpire.SE.IsoPattern=
+diaumpire.SE.MS1PPM=
+diaumpire.SE.MS2PPM=
+diaumpire.SE.MS2SN=
+diaumpire.SE.MassDefectFilter=false
+diaumpire.SE.MassDefectOffset=
+diaumpire.SE.NoMissedScan=
+diaumpire.SE.SN=
+diaumpire.run-diaumpire=false
+fragpipe-config.bin-ionquant=C\:\\Users\\tcoop\\Downloads\\FragPipe-jre-19.1\\fragpipe\\tools\\IonQuant-1.8.10.jar
+fragpipe-config.bin-msfragger=C\:\\Users\\tcoop\\Downloads\\FragPipe-jre-19.1\\fragpipe\\tools\\MSFragger-3.7\\MSFragger-3.7.jar
+fragpipe-config.bin-philosopher=C\:\\Users\\tcoop\\Downloads\\FragPipe-jre-19.1\\fragpipe\\tools\\philosopher_v4.8.0_windows_amd64\\philosopher.exe
+fragpipe-config.bin-python=C\:\\Users\\tcoop\\Anaconda3\\envs\\thejahcoop\\python.exe
+freequant.mz-tol=10
+freequant.rt-tol=0.4
+freequant.run-freequant=false
+ionquant.excludemods=
+ionquant.heavy=
+ionquant.imtol=0.05
+ionquant.ionfdr=0.01
+ionquant.light=
+ionquant.locprob=0.75
+ionquant.maxlfq=1
+ionquant.mbr=1
+ionquant.mbrimtol=0.05
+ionquant.mbrmincorr=0
+ionquant.mbrrttol=1
+ionquant.mbrtoprun=10
+ionquant.medium=
+ionquant.minfreq=0
+ionquant.minions=1
+ionquant.minisotopes=1
+ionquant.minscans=3
+ionquant.mztol=10
+ionquant.normalization=1
+ionquant.peptidefdr=1
+ionquant.proteinfdr=1
+ionquant.requantify=1
+ionquant.rttol=0.4
+ionquant.run-ionquant=true
+ionquant.tp=0
+ionquant.uniqueness=0
+ionquant.use-labeling=false
+ionquant.use-lfq=true
+ionquant.writeindex=0
+msbooster.predict-rt=true
+msbooster.predict-spectra=true
+msbooster.run-msbooster=false
+msbooster.use-correlated-features=false
+msfragger.Y_type_masses=
+msfragger.activation_types=all
+msfragger.add_topN_complementary=0
+msfragger.allowed_missed_cleavage_1=2
+msfragger.allowed_missed_cleavage_2=2
+msfragger.calibrate_mass=2
+msfragger.check_spectral_files=true
+msfragger.clip_nTerm_M=true
+msfragger.deisotope=1
+msfragger.delta_mass_exclude_ranges=(-1.5,3.5)
+msfragger.deneutralloss=1
+msfragger.diagnostic_fragments=
+msfragger.diagnostic_intensity_filter=0
+msfragger.digest_max_length=50
+msfragger.digest_min_length=7
+msfragger.fragment_ion_series=b,y
+msfragger.fragment_mass_tolerance=20
+msfragger.fragment_mass_units=1
+msfragger.intensity_transform=0
+msfragger.ion_series_definitions=
+msfragger.isotope_error=0/1/2
+msfragger.labile_search_mode=off
+msfragger.localize_delta_mass=false
+msfragger.mass_diff_to_variable_mod=0
+msfragger.mass_offsets=0
+msfragger.max_fragment_charge=2
+msfragger.max_variable_mods_combinations=5000
+msfragger.max_variable_mods_per_peptide=3
+msfragger.min_fragments_modelling=2
+msfragger.min_matched_fragments=4
+msfragger.min_sequence_matches=2
+msfragger.minimum_peaks=15
+msfragger.minimum_ratio=0.01
+msfragger.misc.fragger.clear-mz-hi=0
+msfragger.misc.fragger.clear-mz-lo=0
+msfragger.misc.fragger.digest-mass-hi=5000
+msfragger.misc.fragger.digest-mass-lo=500
+msfragger.misc.fragger.enzyme-dropdown-1=trypsin
+msfragger.misc.fragger.enzyme-dropdown-2=trypsin
+msfragger.misc.fragger.precursor-charge-hi=4
+msfragger.misc.fragger.precursor-charge-lo=1
+msfragger.misc.fragger.remove-precursor-range-hi=1.5
+msfragger.misc.fragger.remove-precursor-range-lo=-1.5
+msfragger.misc.slice-db=1
+msfragger.num_enzyme_termini=2
+msfragger.output_format=pepXML_pin
+msfragger.output_max_expect=50
+msfragger.output_report_topN=1
+msfragger.override_charge=false
+msfragger.precursor_mass_lower=-20
+msfragger.precursor_mass_mode=selected
+msfragger.precursor_mass_units=1
+msfragger.precursor_mass_upper=20
+msfragger.precursor_true_tolerance=20
+msfragger.precursor_true_units=1
+msfragger.remainder_fragment_masses=
+msfragger.remove_precursor_peak=1
+msfragger.report_alternative_proteins=true
+msfragger.restrict_deltamass_to=all
+msfragger.run-msfragger=true
+msfragger.search_enzyme_cut_1=KR
+msfragger.search_enzyme_cut_2=
+msfragger.search_enzyme_name_1=stricttrypsin
+msfragger.search_enzyme_name_2=null
+msfragger.search_enzyme_nocut_1=
+msfragger.search_enzyme_nocut_2=
+msfragger.search_enzyme_sense_1=C
+msfragger.search_enzyme_sense_2=C
+msfragger.table.fix-mods=0.0,C-Term Peptide,true,-1; 0.0,N-Term Peptide,true,-1; 0.0,C-Term Protein,true,-1; 0.0,N-Term Protein,true,-1; 0.0,G (glycine),true,-1; 0.0,A (alanine),true,-1; 0.0,S (serine),true,-1; 0.0,P (proline),true,-1; 0.0,V (valine),true,-1; 0.0,T (threonine),true,-1; 57.02146,C (cysteine),true,-1; 0.0,L (leucine),true,-1; 0.0,I (isoleucine),true,-1; 0.0,N (asparagine),true,-1; 0.0,D (aspartic acid),true,-1; 0.0,Q (glutamine),true,-1; 0.0,K (lysine),true,-1; 0.0,E (glutamic acid),true,-1; 0.0,M (methionine),true,-1; 0.0,H (histidine),true,-1; 0.0,F (phenylalanine),true,-1; 0.0,R (arginine),true,-1; 0.0,Y (tyrosine),true,-1; 0.0,W (tryptophan),true,-1; 0.0,B ,true,-1; 0.0,J,true,-1; 0.0,O,true,-1; 0.0,U,true,-1; 0.0,X,true,-1; 0.0,Z,true,-1
+msfragger.table.var-mods=15.9949,M,true,3; 42.0106,[^,true,1; 79.96633,STY,false,3; -17.0265,nQnC,false,1; -18.0106,nE,false,1; 4.025107,K,false,2; 6.020129,KR,false,2; 8.014199,K,false,2; 10.008269,R,false,2; 0.0,site_10,false,1; 0.0,site_11,false,1; 0.0,site_12,false,1; 0.0,site_13,false,1; 0.0,site_14,false,1; 0.0,site_15,false,1; 0.0,site_16,false,1
+msfragger.track_zero_topN=0
+msfragger.use_all_mods_in_first_search=false
+msfragger.use_topN_peaks=150
+msfragger.write_calibrated_mzml=false
+msfragger.write_uncalibrated_mgf=false
+msfragger.zero_bin_accept_expect=0
+msfragger.zero_bin_mult_expect=1
+opair.activation1=HCD
+opair.activation2=HCD
+opair.glyco_db=
+opair.max_glycans=2
+opair.max_isotope_error=2
+opair.min_isotope_error=0
+opair.ms1_tol=20
+opair.ms2_tol=20
+opair.reverse_scan_order=false
+opair.run-opair=false
+opair.single_scan_type=false
+peptide-prophet.cmd-opts=--decoyprobs --ppm --accmass --nonparam --expectscore
+peptide-prophet.combine-pepxml=false
+peptide-prophet.run-peptide-prophet=false
+percolator.cmd-opts=--only-psms --no-terminate --post-processing-tdc
+percolator.keep-tsv-files=false
+percolator.min-prob=0.5
+percolator.run-percolator=true
+phi-report.dont-use-prot-proph-file=false
+phi-report.filter=--sequential --prot 0.01
+phi-report.pep-level-summary=false
+phi-report.philosoher-msstats=false
+phi-report.print-decoys=false
+phi-report.prot-level-summary=true
+phi-report.remove-contaminants=false
+phi-report.run-report=true
+protein-prophet.cmd-opts=--maxppmdiff 2000000
+protein-prophet.run-protein-prophet=true
+ptmprophet.cmdline=KEEPOLD STATIC EMptmprophet.run-ptmprophetptmprophet.run-ptmprophet\=false
+ptmprophet.run-ptmprophet=false
+ptmshepherd.adv_params=false
+ptmshepherd.annotation-common=false
+ptmshepherd.annotation-custom=false
+ptmshepherd.annotation-glyco=false
+ptmshepherd.annotation-unimod=true
+ptmshepherd.annotation_file=
+ptmshepherd.annotation_tol=0.01
+ptmshepherd.cap_y_ions=
+ptmshepherd.decoy_type=1
+ptmshepherd.diag_ions=
+ptmshepherd.diagextract_mode=false
+ptmshepherd.diagmine_diagMinFoldChange=3.0
+ptmshepherd.diagmine_diagMinSpecDiff=25
+ptmshepherd.diagmine_fragMinFoldChange=3.0
+ptmshepherd.diagmine_fragMinPropensity=12.5
+ptmshepherd.diagmine_fragMinSpecDiff=15
+ptmshepherd.diagmine_minIonsPerSpec=2
+ptmshepherd.diagmine_minPeps=25
+ptmshepherd.diagmine_mode=false
+ptmshepherd.diagmine_pepMinFoldChange=3.0
+ptmshepherd.diagmine_pepMinSpecDiff=25
+ptmshepherd.glyco_adducts=
+ptmshepherd.glyco_fdr=0.01
+ptmshepherd.glyco_isotope_max=3
+ptmshepherd.glyco_isotope_min=-1
+ptmshepherd.glyco_mode=true
+ptmshepherd.glyco_ppm_tol=50
+ptmshepherd.glycodatabase=
+ptmshepherd.histo_smoothbins=2
+ptmshepherd.iontype_a=false
+ptmshepherd.iontype_b=true
+ptmshepherd.iontype_c=false
+ptmshepherd.iontype_x=false
+ptmshepherd.iontype_y=true
+ptmshepherd.iontype_z=false
+ptmshepherd.localization_allowed_res=all
+ptmshepherd.localization_background=4
+ptmshepherd.max_adducts=0
+ptmshepherd.n_glyco=true
+ptmshepherd.normalization-psms=true
+ptmshepherd.normalization-scans=false
+ptmshepherd.output_extended=false
+ptmshepherd.peakpicking_mass_units=0
+ptmshepherd.peakpicking_minPsm=10
+ptmshepherd.peakpicking_promRatio=0.3
+ptmshepherd.peakpicking_width=0.002
+ptmshepherd.precursor_mass_units=0
+ptmshepherd.precursor_tol=0.01
+ptmshepherd.print_decoys=false
+ptmshepherd.prob_dhexOx=
+ptmshepherd.prob_dhexY=
+ptmshepherd.prob_neuacOx=
+ptmshepherd.prob_neugcOx=
+ptmshepherd.prob_phosphoOx=
+ptmshepherd.prob_regY=
+ptmshepherd.prob_sulfoOx=
+ptmshepherd.remainder_masses=
+ptmshepherd.remove_glycan_delta_mass=true
+ptmshepherd.run-shepherd=true
+ptmshepherd.spectra_maxfragcharge=2
+ptmshepherd.spectra_ppmtol=20
+ptmshepherd.varmod_masses=
+quantitation.run-label-free-quant=true
+run-psm-validation=true
+run-validation-tab=true
+saintexpress.fragpipe.cmd-opts=
+saintexpress.max-replicates=10
+saintexpress.run-saint-express=false
+saintexpress.virtual-controls=100
+speclibgen.easypqp.extras.max_delta_ppm=15
+speclibgen.easypqp.extras.max_delta_unimod=0.02
+speclibgen.easypqp.extras.rt_lowess_fraction=0.01
+speclibgen.easypqp.fragment.a=false
+speclibgen.easypqp.fragment.b=true
+speclibgen.easypqp.fragment.c=false
+speclibgen.easypqp.fragment.x=false
+speclibgen.easypqp.fragment.y=true
+speclibgen.easypqp.fragment.z=false
+speclibgen.easypqp.im-cal=Automatic selection of a run as reference IM
+speclibgen.easypqp.neutral_loss=false
+speclibgen.easypqp.rt-cal=noiRT
+speclibgen.easypqp.select-file.text=
+speclibgen.easypqp.select-im-file.text=
+speclibgen.keep-intermediate-files=false
+speclibgen.run-speclibgen=false
+tab-run.delete_calibrated_mzml=false
+tab-run.delete_temp_files=false
+tmtintegrator.add_Ref=-1
+tmtintegrator.aggregation_method=0
+tmtintegrator.allow_overlabel=true
+tmtintegrator.allow_unlabeled=true
+tmtintegrator.best_psm=true
+tmtintegrator.channel_num=TMT-6
+tmtintegrator.dont-run-fq-lq=false
+tmtintegrator.glyco_qval=-1
+tmtintegrator.groupby=0
+tmtintegrator.log2transformed=true
+tmtintegrator.max_pep_prob_thres=0
+tmtintegrator.min_ntt=0
+tmtintegrator.min_pep_prob=0.9
+tmtintegrator.min_percent=0.05
+tmtintegrator.min_purity=0.5
+tmtintegrator.min_site_prob=-1
+tmtintegrator.mod_tag=none
+tmtintegrator.ms1_int=true
+tmtintegrator.outlier_removal=true
+tmtintegrator.print_RefInt=false
+tmtintegrator.prot_exclude=none
+tmtintegrator.prot_norm=0
+tmtintegrator.psm_norm=false
+tmtintegrator.quant_level=2
+tmtintegrator.ref_tag=Bridge
+tmtintegrator.run-tmtintegrator=false
+tmtintegrator.tolerance=20
+tmtintegrator.top3_pep=true
+tmtintegrator.unique_gene=0
+tmtintegrator.unique_pep=false
+tmtintegrator.use_glycan_composition=false
+workdir=C\:\\Users\\tcoop\\Desktop\\FAIMS_Splitter\\FragPy
+workflow.input.data-type.im-ms=true
+workflow.input.data-type.regular-ms=false
+workflow.ram=0
+workflow.threads=11
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+CheckCentroid
+C:\Users\tcoop\Downloads\FragPipe-jre-19.1\fragpipe\jre\bin\java.exe -Xmx1G -cp "C:\Users\tcoop\Downloads\FragPipe-jre-19.1\fragpipe\lib\fragpipe-19.1.jar;C:\Users\tcoop\Downloads\FragPipe-jre-19.1\fragpipe\tools\batmass-io-1.28.9.jar" com.dmtavt.fragpipe.util.CheckCentroid C:\Users\tcoop\Desktop\Target_Folder\File1_-35.mzML 11
+C:\Users\tcoop\Desktop\Target_Folder\File1_-35.mzML has non-centroid scans. Please re-convert it with peakPeaking (https://fragpipe.nesvilab.org/docs/tutorial_convert.html).
+Process 'CheckCentroid' finished, exit code: 1
+Process returned non-zero exit code, stopping
+
+~~~~~~~~~~~~~~~~~~~~
+Cancelling 45 remaining tasks

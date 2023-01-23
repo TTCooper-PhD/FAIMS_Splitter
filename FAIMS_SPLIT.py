@@ -50,7 +50,7 @@ gen_manifest("C:\\Users\\tcoop\\Desktop\\Target_Folder")
 
 
 
-temp_file="FAIMS_DDA_LFQ2.workflow"
+temp_file="FAIMS_DDA_LFQ.workflow"
 # def gen_workflow(in_file):
 with open(f"{temp_file}", "r") as workflow:
     x=workflow.read()
@@ -104,11 +104,11 @@ def mod_workflow(input, filename=None, outdir=None):
         workout.write(work_string)
         workout.close()
 
-mod_workflow(" FAIMS_DDA_LFQ2.json",filename="WorkOutTest")
+mod_workflow(" FAIMS_DDA_LFQ.json",filename="WorkOutTest")
 
 workflow="WorkOutTest.workflow"
 manifest="FAIMS_DDA.fp-manifest"
 workdir="FragPy"
 
-frag=f"C:\\Users\\tcoop\Downloads\\FragPipe-jre-19.1\\fragpipe\\bin\\fragpipe.bat --headless --workflow {workflow} --manifest {manifest} --workdir {workdir}"
+frag=f"fragpipe.bat --headless --workflow {workflow} --manifest {manifest} --workdir {workdir}"
 subprocess.Popen(frag, shell=True)
